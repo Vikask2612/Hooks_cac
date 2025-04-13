@@ -51,3 +51,36 @@
 
 // ------------------------------------------------------------------------------------------
 
+// useref hook:
+
+//useref hook:
+
+// import React from 'react'
+// import { useState,useRef,useEffect } from 'react'
+// import './App.css'
+// // as
+//   const App1 = () => {
+
+//     const [count, setCount] = useState(0)
+//     const ref = useRef(0)
+
+//     const Increment = () => {
+//       setCount(count+1)
+//     }    
+
+//     useEffect(() => {
+//       alert('first rendering');
+//       ref.current.style.backgroundColor = 'purple'
+//     },[]);
+    
+//     return (
+//       <>
+//       <button className='py-2 px-4 border-black border-2 text-white text-bold' ref={ref}
+//        onClick={Increment}>
+//         count is {count}
+//       </button>
+//       </>
+//     )
+//   }
+
+//   export default App1
